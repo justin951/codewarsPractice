@@ -1,0 +1,2 @@
+Dependency Inversion Principle (DIP)
+DIP states that high-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions. This means that you should use interfaces or abstract classes to define the behavior of your classes, and then use dependency injection to provide the specific implementations. This allows you to easily swap out different implementations without affecting the rest of your code.
