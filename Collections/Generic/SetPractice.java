@@ -7,7 +7,7 @@ public class SetPractice {
   public void practiceSet() {
 
     // creating a set object
-    Set<String> anime = new HashSet<>(); // OR
+//    Set<String> anime = new HashSet<>(); // OR
     SortedSet<String> anime = new TreeSet<>(); // cannot contain 'null' values
     
 
@@ -39,7 +39,7 @@ public class SetPractice {
 
     // does set contain specific value
     if(anime.contains("Frieren")) {
-      System.out.println("First Line\n" + "Second Line")
+      System.out.println("First Line\n" + "Second Line");
     }else{
       System.out.println("Nah fam");
     }

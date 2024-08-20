@@ -1,5 +1,3 @@
-package CodeWars;
-
 public class VowelRemover {
   public static String removeVowels(String inputString) {
     String result = "";
