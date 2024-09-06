@@ -1,5 +1,3 @@
-package CodeWars;
-
 public class FindMean {
   public static int findAverage(int[] nums) {
     int result = 0;

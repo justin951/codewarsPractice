@@ -1,5 +1,3 @@
-package CodeWars;
-
 public class Holiday {
   public static int dutyFree(int normPrice, int discount, int hol) {
 

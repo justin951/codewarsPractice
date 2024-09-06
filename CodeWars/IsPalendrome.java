@@ -1,5 +1,3 @@
-package CodeWars;
-
 class IsPalendrome {
   public static boolean isPalendrome(String inputString) {
     if (inputString.length() <= 1) {
@@ -14,11 +12,5 @@ class IsPalendrome {
 
   public static void main(String[] args) {
     System.out.println(isPalendrome("the"));
-  }
-
-  @Test
-  public void whenEmptyString_thenAccept() {
-    Palindrome palindromeTester = new Palindrome();
-    assertTrue(palindromeTester.isPalindrome(""));
   }
 }

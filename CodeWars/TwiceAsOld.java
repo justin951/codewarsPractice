@@ -1,5 +1,3 @@
-package CodeWars;
-
 public class TwiceAsOld {
   public static int calculateTwiceAsOld(int dadYears, int sonYears) {
     return dadYears - (sonYears * 2);

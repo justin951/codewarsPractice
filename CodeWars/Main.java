@@ -1,5 +1,3 @@
-package CodeWars;
-
 import java.util.ArrayList;
 import java.util.List;
 
