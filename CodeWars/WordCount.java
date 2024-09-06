@@ -15,7 +15,7 @@ public class WordCount {
       if (!wordCounts.containsKey(word)) {
         wordCounts.put(word, 1);
       } else {
-        wordCounts.put(word, wordCounts.get(word) + 1);
+        wordCounts.put(word, wordCounts.get(word) + 1);a
       }
     }
 

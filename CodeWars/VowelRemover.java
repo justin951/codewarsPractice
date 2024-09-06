@@ -16,19 +16,27 @@ public class VowelRemover {
   }
 
   public static String shortcut(String input) {
-    // Array of vowels
     String[] vowels = { "a", "e", "i", "o", "u" };
 
-    // Loop through each vowel in the array
     for (String sorter : vowels) {
-      // Check if the input string contains the current vowel
       if (input.contains(sorter)) {
-        // If it does, replace all occurrences of the vowel with an empty string
         input = input.replace(sorter, "");
       }
     }
 
-    // Return the modified input string (without vowels)
     return input;
+  }
+
+  public static Integer vowelCount(String input) {
+    int count = 0;
+    String vowels = "aeiou";
+
+    for (char c : input.toCharArray()) {
+      if (vowels.indexOf(c) != -1) {
+        count += 1;
+      }
+    }
+
+    return count;
   }
 }
